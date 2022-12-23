@@ -15,12 +15,11 @@ public class CallbackTest {
 
     @BeforeAll
     static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dyxxless\\Desktop\\IntelliJ\\Selenium\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
     }
 
     @BeforeEach
     void setUp() {
-        //driver = new ChromeDriver();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--no-sandbox");
