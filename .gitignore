@@ -15,11 +15,11 @@ build/
 
 ### IntelliJ IDEA ###
 .idea
+.idea/
 *.iws
 *.iml
 *.ipr
 out/
-.idea/
 
 ### NetBeans ###
 /nbproject/private/
